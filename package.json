@@ -1,7 +1,7 @@
 {
-  "name": "react-rhelena-quick-start-boilerplate",
+  "name": "rhelena",
   "version": "0.0.1",
-  "description": "React Rhelena Quick Start Boilerplate",
+  "description": "React Rhelena",
   "scripts": {
     "start": "node server.js"
   },

@@ -1,7 +1,7 @@
 {
   "name": "rhelena",
-  "version": "0.1.0",
-  "description": "an topic-event-driven presentation model implementation for ReactJS",
+  "version": "0.1.2",
+  "description": "an topic-driven presentation model implementation for ReactJS",
   "main": "Rhelena.js",
   "scripts": {
     "test": "test"

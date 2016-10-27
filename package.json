@@ -1,8 +1,8 @@
 {
   "name": "rhelena",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "an topic-driven presentation model implementation for ReactJS",
-  "main": "Rhelena.js",
+  "main": "rhelena.js",
   "scripts": {
     "test": "test"
   },

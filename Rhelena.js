@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/rhelena');
+module.exports = require('./lib/Rhelena.js');

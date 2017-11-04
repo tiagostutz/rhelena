@@ -19,7 +19,7 @@ export default class DogView extends React.Component {
     return (
       <View style={{flex:1, flexDirection:'column', alignItems:'center'}}>
         <Text style={{fontSize:30, marginTop:30}}>Dog Barker</Text>
-        <TouchableOpacity style={{alignItems:'center', justifyContent:'center', margin:50}} onPress={()=>{this.actions.bark()}}>
+        <TouchableOpacity style={{alignItems:'center', justifyContent:'center', margin:50}} onPress={()=>{this.viewModel.bark()}}>
           <Image style={{width:150, height:150, resizeMode:'contain'}} source={require('./dog.png')} />
         </TouchableOpacity>
         <Text>Dog barked<Text style={{fontWeight:'bold', fontSize:30}}> {this.viewModel.barks} </Text>times</Text>

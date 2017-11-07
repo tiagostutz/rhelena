@@ -1,8 +1,8 @@
 {
   "name": "rhelena",
-  "version": "0.1.11",
-  "description": "an topic-driven presentation model implementation for ReactJS",
-  "main": "Rhelena.js",
+  "version": "0.1.14",
+  "description": "a presentation model implementation for ReactJS",
+  "main": "rhelena.js",
   "scripts": {
     "test": "test"
   },
@@ -20,10 +20,11 @@
     "topic",
     "event",
     "view",
-    "javascript"
+    "javascript",
+    "stutz"
   ],
   "author": "Tiago de Oliveira Stutz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tiagostutz/rhelena/issues"
   },

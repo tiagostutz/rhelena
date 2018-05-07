@@ -21,3 +21,7 @@ componentWillMount() {
 * There is nothing better than an example! See them at *examples* folder
 
 ![Dog Bark](examples/dogbark.gif?raw=true)
+
+## 1.0.0 version DEPRACATION WARNING
+
+The attribute `actions` that was present in prior versions is no longer available. Use `this.viewModel` to access ViewModel's methods instead

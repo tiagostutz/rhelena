@@ -1,6 +1,6 @@
 {
   "name": "rhelena",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a presentation model implementation for ReactJS",
   "main": "Rhelena.js",
   "scripts": {
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/tiagostutz/rhelena/issues"
   },
-  "homepage": "https://github.com/tiagostutz/rhelena#readme"
+  "homepage": "https://github.com/tiagostutz/rhelena#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }

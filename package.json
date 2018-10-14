@@ -1,10 +1,10 @@
 {
   "name": "rhelena",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a presentation model implementation for ReactJS",
   "main": "Rhelena.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

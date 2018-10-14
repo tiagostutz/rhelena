@@ -1,6 +1,6 @@
 {
   "name": "rhelena",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "a presentation model implementation for ReactJS",
   "main": "Rhelena.js",
   "scripts": {

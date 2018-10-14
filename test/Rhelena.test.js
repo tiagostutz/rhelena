@@ -263,17 +263,14 @@ describe('Rhelena', () => {
             assert.equal(model_1.isStateKept("mocks", 55), !!true)
 
             if (model_1.isStateKept("mocks", 33)) {
-                model_1.loadState("mocks", 33) //loadState `clears` the keepState
-                assert.equal(model_1.__persistenceGroup, null)
-                assert.equal(model_1.__persistenceId, null)
+                model_1.loadState("mocks", 33) 
+                assert.equal(model_1.__persistenceGroup, "mocks")
+                assert.equal(model_1.__persistenceId, 33)
                 assert.equal(model_1.value, 100)
                 assert.equal(globalState['mocks'][55].value, 200)
                 assert.equal(globalState['mocks'][33].value, 100) 
+
                 model_1.value = 300               
-                assert.equal(model_1.value, 300)
-                assert.equal(globalState['mocks'][55].value, 200)
-                assert.equal(globalState['mocks'][33].value, 100) 
-                model_1.keepState("mocks", 33)
                 assert.equal(model_1.value, 300)
                 assert.equal(globalState['mocks'][55].value, 200)
                 assert.equal(globalState['mocks'][33].value, 300) 
@@ -285,16 +282,12 @@ describe('Rhelena', () => {
 
             if (model_1.isStateKept("mocks", 55)) {
                 model_1.loadState("mocks", 55) //loadState `clears` the keepState
-                assert.equal(model_1.__persistenceGroup, null)
-                assert.equal(model_1.__persistenceId, null)
+                assert.equal(model_1.__persistenceGroup, "mocks")
+                assert.equal(model_1.__persistenceId, 55)
                 assert.equal(model_1.value, 200)
                 assert.equal(globalState['mocks'][55].value, 200)
                 assert.equal(globalState['mocks'][33].value, 303) 
                 model_1.value = 500               
-                assert.equal(model_1.value, 500)
-                assert.equal(globalState['mocks'][55].value, 200)
-                assert.equal(globalState['mocks'][33].value, 303) 
-                model_1.keepState("mocks", 55)
                 assert.equal(model_1.value, 500)
                 assert.equal(globalState['mocks'][55].value, 500)
                 assert.equal(globalState['mocks'][33].value, 303) 

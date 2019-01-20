@@ -48,3 +48,6 @@ Some attributes are used internally to control the lifecycle of a Rhelena Model,
 ## 1.0.0 version DEPRACATION WARNING
 
 The attribute `actions` that was present in prior versions is no longer available. Use `this.viewModel` to access ViewModel's methods instead
+
+### Demo
+[Here](examples/note-app) is a simple note-taking React application which use *rhelena* and *manuh*.

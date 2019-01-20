@@ -20,11 +20,8 @@ The ```manuh```'s role on the application is to enable communication between two
 
   
 
-  ```manuh``` is *fast and efficient* as you can see at the 
-
-  [official project's page]: https://github.com/tiagostutz/manuh
-
-  and is *easy to use* as you can see by looking into [EditorModel](src/model/EditorModel.js) and [EditableListModel](src/model/EditableListModel.js): 
+```manuh``` is *fast and efficient* as you can see at the [official project page](https://github.com/tiagostutz/manuh)
+and is *easy to use* as you can see by looking into [EditorModel](src/model/EditorModel.js) and [EditableListModel](src/model/EditableListModel.js): 
   the *first* has a method of name ```addItem```, while in the *second* you have a *subscription* to a **channel**, which is **notes/add**.
 
   The ```addItem``` method when called **publishes**  to the **notes/add** channel.

@@ -19,6 +19,7 @@ componentWillMount() {
 
 ## Example
 * There is nothing better than an example! See them at *examples* folder
+* [rhelena + manuh usage](https://github.com/maffei2443/rhelena-manuh-example)
 
 ![Dog Bark](examples/dogbark.gif?raw=true)
 

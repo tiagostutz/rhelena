@@ -19,6 +19,7 @@ componentWillMount() {
 
 ## Example
 * There is nothing better than an example! See them at *examples* folder
+* [rhelena + manuh usage](https://github.com/maffei2443/rhelena-manuh-example)
 
 ![Dog Bark](examples/dogbark.gif?raw=true)
 
@@ -48,3 +49,6 @@ Some attributes are used internally to control the lifecycle of a Rhelena Model,
 ## 1.0.0 version DEPRACATION WARNING
 
 The attribute `actions` that was present in prior versions is no longer available. Use `this.viewModel` to access ViewModel's methods instead
+
+### Demo
+[Here](examples/note-app) is a simple note-taking React application which use *rhelena* and *manuh*.
